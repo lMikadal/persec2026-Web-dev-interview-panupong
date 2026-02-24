@@ -5,6 +5,7 @@ N := 1
 test-all:
 	$(TS_NODE) exam1_test.ts
 	$(TS_NODE) exam2_test.ts
+	$(TS_NODE) exam3_test.ts
 
 .PHONY: test
 test:
