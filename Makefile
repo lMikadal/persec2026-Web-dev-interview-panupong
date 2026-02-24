@@ -4,6 +4,7 @@ N := 1
 .PHONY: test-all
 test-all:
 	$(TS_NODE) exam1_test.ts
+	$(TS_NODE) exam2_test.ts
 
 .PHONY: test
 test:
