@@ -26,6 +26,10 @@ const cases: TestCase[] = [
 		input: ['SG', 'THN', 'SG', 'THA', 'TH'],
 		expected: ['SG', 'SG', 'TH', 'THA', 'THN'],
 	},
+	{
+		input: [],
+		expected: [],
+	},
 ];
 
 function arraysEqual(a: string[], b: string[]): boolean {

@@ -20,6 +20,7 @@ const cases: TestCase[] = [
 	{ input: '{}[]()', expected: true },
 	{ input: '{([}])', expected: false },
 	{ input: '{{{}}}', expected: true },
+	{ input: '', expected: true },
 ];
 
 function runTests() {
